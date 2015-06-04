@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Bagit</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    
+    <!-- css includes -->
+    <link rel="stylesheet" href="css/jquery.mobile-1.4.0.min.css">
+    <link rel="stylesheet" href="lib/leaflet/leaflet.css" />
+    <link rel="stylesheet" href="css/index.css" />
+
+    <!-- javascript includes -->
+    <script src="js/jquery-2.0.2.min.js"></script> 
+    <script src="js/jquery.mobile-1.4.0.min.js"></script>
+    <script src="lib/leaflet/leaflet.js"></script>
+    <script src="js/index.js"></script>
+    
+</head>
+
+<body>
+    
+    <div id="preloader">
+        <div id="status">&nbsp;</div>
+    </div>
+
+   
+    <!-- Map Page -->
+    <div data-role="page" id="main">
+    
+	    <!-- Header -->
+        <div data-theme="b" data-role="header" data-position="fixed" >
+            <div id="logo">
+                <h1>Bagit</h1>
+            </div>
+            <a href="#setting" id="stack" class="ui-btn-left ui-btn ui-btn-inline ui-mini ui-btn-icon-left ui-btn-icon-notext">
+                <img src="img/stack.png">
+            </a>
+            <a href="#checkout" id="cart" class="ui-btn-right ui-btn ui-btn-inline ui-mini ui-btn-icon-right ui-btn-icon-notext ">     
+               Checkout
+            </a>
+        </div>
+        
+        <!-- Side Panel -->
+        <div data-role="panel" id="setting" data-position="left" data-display="push" data-theme="b" >
+            <div id="sidemenu">
+	            <ul>
+	            	<li class="home-ico"><a href="">Me</a></li>
+	            	<li class="places-ico"><a href="">places</a></li>
+	            	<li class="friday-ico"><a href="">Friday Cash</a></li>
+	            	<li class="reward-ico"><a href="">Rewards</a></li>
+	            	<li class="adfeed-ico"><a href="">Ad Feed</a></li>
+	            	<li class="liked-ico"><a href="">Liked</a></li>
+	            	<li class="setting-ico"><a href="">Settings</a></li>
+	            	<li class="logout-ico"><a href="">Sign Out</a></li>
+	            	<a href="">&#169;2014 Bagit created by Ricon</a>
+	            </ul>
+            </div>
+        </div>
+        
+       
+        <!-- content -->
+        <div data-role="content">
+       
+        <div data-role="navbar">
+            <div class="main">
+                <div class="search-bar">
+                    <form method="post" name="form">
+                        <input type="text" name="search" id="search" placeholder="e.g fries, shwama, pills" />
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div id="results">
+	    	<ul>
+	    		<li>
+	        		<a id="listall">list all results</a>
+	    		</li>
+	    	</ul>
+        </div>
+
+        <!-- Leaflet Map -->
+        <div id="map"></div>
+        <div id="lower">
+            <div id="panel"></div>
+		</div>
+        </div>
+    </div>
+
+    <!-- Company Page -->
+    <div data-role="page" id="companies">
+	    
+	    <!-- Header -->
+        <div data-theme="b" data-role="header" data-id="head" data-position="fixed" >
+            <div id="logo">
+                <h1>All Comapnies</h1>
+            </div>
+            <a data-rel="back" id="stack" class="ui-btn-left ui-btn ui-btn-inline ui-mini ui-btn-icon-left ui-btn-icon-notext">
+                <img src="img/back.png">
+            </a>
+            <a href="#checkout" id="cart" class="ui-btn-right ui-btn ui-btn-inline ui-mini ui-btn-icon-right ui-btn-icon-notext ">     
+               Checkout
+            </a>
+        </div>
+
+        <!-- content -->
+        <div data-role="content">
+        	<div id="restaurant-list">
+	        	<ul data-role="listview" id="ulelement" class="ui-listview" data-filter="true"></ul>
+	        </div>
+        </div> 
+    </div>
+
+  </body>
+</html>

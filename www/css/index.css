@@ -1,0 +1,698 @@
+@font-face {
+    font-family:'robotothin';
+    src: url('../css/fonts/roboto-thin-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+overflow: hidden;
+background-color: #e9ecee;
+font-family: robotothin;
+
+}
+.ui-content { 
+padding: 0 !important;
+}
+
+.ui-header-fixed {
+background-color: #cd5200;
+border-color: #cd5200;
+}
+
+.ui-input-text, .ui-input-search {
+    margin: 0px;
+    border-style:none;
+}
+
+.ui-panel-wrapper {
+margin: 0;
+padding: 0;
+
+}
+
+.ui-panel-inner {
+padding:0;
+}
+
+.search-bar {
+    border: none;
+}
+
+#search-frm {
+    width: 100%;
+}
+
+#search{
+    border: none;
+    border-style: none;
+    background: white;
+    border-radius: none;
+    height: 50px;
+    
+}
+
+.ui-input-search {
+	border: none;
+    border-style: none;
+    background: white;
+    border-radius: none;
+    height: 50px;
+}
+
+.ui-filterable+ .ui-listview {
+	margin: 0 !important;
+	
+}
+
+#logo h1 {
+    text-align: center;
+    margin: 0 ;
+    padding: 0;
+    text-shadow: none;
+    color: #fff;
+    font-size: 18pt;
+    height: 40px;
+}
+#map {
+    height: 200px;
+}
+
+#start-wp {
+    margin: 0 auto;
+    text-align:center;
+    padding:0px;
+    font-size : 12pt;
+    width: 300px;
+    text-shadow: none;
+    margin-top: 50%;
+}
+
+
+#login-wp {
+    margin: 0 auto;
+    text-align:left;
+    padding:0px;
+    font-size : 12pt;
+    width: 300px;
+    text-shadow: none;
+    margin-top: 10%;
+}
+
+#signup-wp {
+    margin: 0 auto;
+    text-align:left;
+    padding:0px;
+    font-size : 12pt;
+    width: 300px;
+    text-shadow: none;
+    margin-top: 10%;
+    
+}
+
+#signup-wp input[type=text], input[type=password] {
+    background-color: #fff;
+    height: 50px;
+    color: #555555;
+    text-align: left;
+    margin-top: 6px;
+    border-top: solid 1px #dfdfdf;
+    box-shadow: none;
+    border-radius: none;
+    -webkit-border-radius: 0;
+}
+
+#white-form {
+	background-color: #fff;
+}
+
+.profile-image {
+    text-align: center;
+    padding-bottom: 0px;
+    padding-top: 0px;
+   
+}
+.profile-image img {
+    width: 60%;
+   
+}
+
+.avatar {
+    width: 90px;
+    height: 90px;
+    border-radius: 200px;
+    border:5px solid #d9dde0;
+    -webkit-border-radius: 200px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+    -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+    -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+}
+#login-wp input[type=text], input[type=password] {
+    background-color: #fff;
+    height: 50px;
+    color: #555555;
+    text-align: left;
+    border-radius: none;
+    -webkit-border-radius: 0;
+    /*border: none;*/
+    margin-top: 6px;
+}
+#login-wp h2 {
+   text-align: center;
+    color: #fff;
+    font-size: 25pt;
+    font-weight: bold;
+    margin: 0;
+}
+
+h2.larger {
+    text-align: center;
+    color: #fff;
+    font-size: 19pt;
+    font-weight: bold;
+    margin: 0;
+}
+
+h2.smaller{
+    text-align: center;
+    color: #fff;
+    font-size: 12pt;
+    font-weight: bold;
+    margin: 0;
+}
+
+#close-btn a{
+	padding: 0px;
+	margin: 0px;
+	text-align: right;
+	color: #fff;
+    font-size: 25pt;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#lower-form {
+	margin-top: 40%;
+	padding-bottom: 30px;
+	margin-bottom: 40px;
+}
+
+#facebook-btn {
+    background-color: #3b5998;
+    height: 50px;
+    color: #fff;
+    text-align: center;
+    font-size : 12pt;
+    font-family: robotothin;
+    padding: 0px;
+    margin: 0px;
+    border: 1px solid #3b5998;
+    text-shadow: none;
+}
+#signup-start-btn {
+	 background-color: #28170b;
+    height: 50px;
+    color: #fff;
+    text-align: center;
+    font-size : 12pt;
+    font-family: robotothin;
+    padding: 0px;
+    margin: 0px;
+    border: 1px solid #28170b;
+    text-shadow: none;	
+}
+
+#login-start-btn {
+	background-color: #28170b;
+    height: 50px;
+    color: #fff;
+    text-align: center;
+    font-size : 12pt;
+    font-family: robotothin;
+    padding: 0px;
+    margin: 0px;
+    border: 1px solid #28170b;
+    text-shadow: none;	
+ 
+}
+
+#login-btn {
+    background-color: #cd5200;
+    height: 50px;
+    font-size : 12pt;
+    text-align: center;
+    color: #fff;
+    text-shadow: none;
+    font-family: robotothin;
+    border: 1px solid #cd5200;
+    padding: 0px;
+    margin-top: 10px;
+}
+::-webkit-input-placeholder {
+    color: #555555;
+}
+#category-btn img {
+    float: left;
+    text-align: left;
+    clear: right;
+    margin-left: 0px;
+    padding: 25px;
+
+}
+.category-blue {
+    background-color: #51e7d7;
+    width: 120px;
+    height: 120px;
+    float: left;
+    text-align: left;
+    margin-right: 15px;
+}
+
+.category-pink {
+    background-color: #ee388e;
+    width: 120px;
+    height: 120px;
+    float: left;
+    text-align: left;
+    margin-right: 15px;
+}
+
+.company-blue {
+    background-color: #51e7d7;
+    width: 7px;
+    height: 120px;
+    float: left;
+    text-align: left;
+    margin-right: 10px;
+}
+
+.company-pink {
+    background-color: #ee388e;
+    width: 12px;
+    height: 120px;
+    float: left;
+    text-align: left;
+    margin-right: 10px;
+}
+
+#category-btn {
+    background-color: #fff;
+    border-bottom: 1px solid #aaa;
+    height: 80px;
+    color: #000;
+    font-family: robotothin;
+    font-size: 23px;
+    text-align: left;
+    border-radius : 0px;
+    border: none;
+    border-bottom : 0px solid #aaa;
+    margin: 0px;
+    padding: 0px;
+    height: 100px;
+    line-height: 50px;
+    background-repeat:no-repeat;
+    background-size:120px 120px;
+    background-position: Top left;
+    text-shadow: none;
+}
+
+#category-header {
+    padding: 10px;
+    background-color: #51e7d7;
+    font-family: robotothin;
+    font-size: px;
+    color: #fff;
+}
+
+span.category-circle {
+    width:50px;
+    height:50px;
+    border-radius:50px;
+    font-size:20px;
+    color:#ff6600;
+    line-height:50px;
+    text-align:center;
+    background: #28170b;
+    float: right;
+    text-shadow: none;
+    border: 5px solid #aaa;
+}
+
+#restaurant-wp {
+    
+    margin: 0px;
+}
+
+#restaurant-list {
+    padding: 0px;
+
+}
+
+#restaurant-list ul li a {
+  /*display: block;
+    height: 80px;
+    line-height: 20px;
+    border-bottom: 1px solid #fff;
+    padding: 0px;
+    min-height: 0;
+    background: #fff;
+    text-shadow: none;*/
+}
+.restaurant-likes {
+    font-size: 14px;
+    color:#e88e3d;
+    float: right;
+    padding-right: 50px;
+}
+#item-list {
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-top: 0px;
+}
+#item-list ul li a {
+    background: #fff;
+    text-shadow: none;
+}
+#item-coverpage {
+   /* background: #ee388e; */
+    text-shadow: none;
+    color: #fff;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+
+}
+
+#item-coverpage img {
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+}
+.item-price {
+    text-align: left;
+    float: right;
+    margin-right: 20px;
+    color: #ff6600;
+    width: 35px;
+}
+span.item-circle {
+    width: 25px;
+    height: 25px;
+    border-radius:50px;
+    font-size:10px;
+    color:#fff;
+    line-height:25px;
+    text-align:center;
+    background: #000;
+    float: right;
+}
+#restaurant-list ul li p {
+	color: #000;
+    width: 250px;
+}
+
+#restaurant-list ul li a {
+    width: 250px;
+    text-decoration: none;
+}
+
+#restaurant-list ul li img {
+    /*position: relative;
+    left:-80px;
+    top: -10px;
+    width: 200px;
+    height:35px;*/
+    float: right;
+    text-align: right;
+}
+#preloader {
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background-color:#fff;
+    z-index:99;
+}
+#status {
+    width:200px;
+    height:200px;
+    position:absolute;
+    left:50%;
+    top:50%;
+    background-image:url(../img/status.gif);
+    background-repeat:no-repeat;
+    background-position:center;
+    margin:-100px 0 0 -100px;
+}
+#cart {
+    border: none;
+    background: #28170b ;
+    text-shadow: none;
+  
+}
+#stack {
+    padding-top: 6px;
+    border: none;
+    background: transparent;
+}
+
+#about-back-btn {
+    padding-top: 2px;
+    border: none;
+    background: transparent;
+}
+
+#camera-logo {
+    padding-top: 2px;
+    border: none;
+    background: transparent;
+}
+#submit-container {
+    display:block;
+    width:100%;
+    height:80%;
+    background:#cccccc;
+    position:relative;
+}
+#submit-container img {
+    display:block;
+    margin:auto;
+    top:10%;
+    position:relative;
+}
+#about-main {
+    display:inline-block;
+    font-family:robotothin;
+    width:70%;
+    height:70%;
+    margin:.5em;
+    padding:.5em;
+    background:#fff;
+    position:relative;
+}
+
+#order-summary {
+    background: #aaa;
+    padding: 10px;
+    text-shadow: none;
+    
+}
+
+#added-item ul li {
+    list-style: none;
+}
+
+#added-item span {
+    float: right;
+}
+
+#payment-option select {
+    text-align: left;
+}
+
+#slideshow {
+   
+position: relative;
+width:100%;
+height: 240px;
+padding: 0px;
+
+}
+
+#slideshow > div {
+position: absolute;
+top: 0px;
+left: 0px;
+right: 0px;
+bottom: 0px;
+}
+
+
+#upper {
+    position: relative;
+}
+
+#lower {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+#bar {
+    padding: 0px;
+}
+
+#panel {
+    display: none;
+/*    height: 100px;
+  */  background-color: #fff; 
+    padding: 0px;
+}
+
+
+#panel div {
+  margin: 0px;
+  
+}
+ 
+#panel ul {
+  list-style-type: none;
+  width: auto;
+   margin: 0;
+  padding: 0;
+  height: 100px;
+
+}
+ 
+#panel h4 {
+  font: bold 20px/1.5 Helvetica, Verdana, sans-serif;
+  padding-top: 5px;
+  margin: 0;
+   display: inline-block;
+}
+ 
+#panelimg {
+ float: left;
+  margin: 0 15px 0 0;
+}
+ 
+#panel li p {
+  padding: 0;
+  margin: 0;
+}
+ 
+#panel li {
+  padding: 0px;
+  overflow: auto;
+ 
+}
+ 
+#panel li:hover {
+ /* background: #eee;*/
+  cursor: pointer;
+}
+
+#likes{
+	float: right;
+  margin: 0 15px 0 0;
+  
+}
+
+#centerimg {
+	vertical-align:middle;
+}
+
+
+#results {
+	padding: 10px;
+	background-color: #fff;
+	width: 100%;
+    position: relative;
+    top: 5px;
+    display: none;
+    text-align: left;
+}
+
+
+
+#results ul
+{
+list-style-type: none;
+padding: 0px;
+margin: 0px;
+}
+#results ul li
+{
+background-image: url(../img/list.png);
+background-repeat: no-repeat;
+background-position: 0px 4px; 
+padding-left: 17px; 
+}
+
+#sidemenu {
+  background: transparent;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: auto;
+}
+
+#sidemenu li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  border-bottom: 1px solid #aaa;
+}
+
+#sidemenu a {
+  background: transparent;
+  color: #ccc;
+  display: block;
+  margin: 0;
+  padding: 8px 12px;
+  text-decoration: none;
+  font-weight: normal;
+}
+
+#sidemenu a:hover {
+  background-color: #cd5200;
+  color: #fff;
+  padding-bottom: 8px;
+}
+
+#sidemenu .home-ico {
+   background: url(../img/home.png) no-repeat center left;
+   padding: 2px 0 0 25px;
+}
+#sidemenu .places-ico {
+   background: url(../img/place.png) no-repeat center left;
+   padding: 2px 0 0 25px;
+}
+#sidemenu .friday-ico {
+   background: url(../img/beer.png) no-repeat center left;
+   padding: 2px 0 0 25px;
+}
+#sidemenu .reward-ico {
+   background: url(../img/reward.png) no-repeat center left;
+   padding: 2px 0 0 25px;
+}
+#sidemenu .reward-ico {
+   background: url(../img/reward.png) no-repeat center left;
+   padding: 2px 0 0 25px;
+}
+#sidemenu .adfeed-ico {
+   background: url(../img/feed.png) no-repeat center left;
+   padding: 2px 0 0 25px;
+}
+#sidemenu .liked-ico {
+   background: url(../img/liked.png) no-repeat center left;
+   padding: 2px 0 0 25px;
+}
+#sidemenu .setting-ico {
+   background: url(../img/setting.png) no-repeat center left;
+   padding: 2px 0 0 25px;
+}
+#sidemenu .logout-ico {
+   background: url(../img/logout.png) no-repeat center left;
+   padding: 2px 0 0 25px;
+}
